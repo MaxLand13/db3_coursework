@@ -3,7 +3,7 @@ import pymongo
 import json
 from datetime import datetime
 
-mongo_client = pymongo.MongoClient("mongodb+srv://Max:univerDB6@cluster0.qv5ym.mongodb.net/myFirstDatabase"
+mongo_client = pymongo.MongoClient("mongodb+srv://Max:<password>@cluster0.qv5ym.mongodb.net/myFirstDatabase"
                                    "?retryWrites=true&w=majority")
 mongo_database = mongo_client['Covid19Cases']
 collection_name = 'Cases'
